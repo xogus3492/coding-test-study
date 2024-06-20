@@ -14,7 +14,7 @@ class Solution {
             answer = false; //만약 'p'값과 'y'값이 다르면 false
         }
 
-        return false; // boolean에 'p'값과 'y'값을 비교했을때 같으면 True, 다르면 False를 return
+        return answer; // boolean에 'p'값과 'y'값을 비교했을때 같으면 True, 다르면 False를 return
     }
 }
 
