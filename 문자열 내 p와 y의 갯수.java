@@ -1,4 +1,4 @@
-1번
+
 import java.util.Scanner;
 
 class Solution_1 {
