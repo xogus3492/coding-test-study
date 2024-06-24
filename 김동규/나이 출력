@@ -1,0 +1,9 @@
+public class Day_2_3 {
+    public static void main(String[] args) {
+        int age = 39;
+        int currentYear = 2024;
+        int birthYear = currentYear - age + 1;
+
+        System.out.println("The birth year is: " + birthYear);
+    }
+}
