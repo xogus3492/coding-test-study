@@ -1,0 +1,21 @@
+public class Solution {
+
+    public static void main(String[] args) {
+      
+        int[] a = {149, 180, 192, 170};
+        int[] b = {180, 120, 140};
+        Solution sol = new Solution();
+        System.out.println(sol.solution(a, 167));
+        System.out.println(sol.solution(b, 190));
+    }
+    
+    public int solution(int[] array, int height) {
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > height) {
+                count++;
+            }
+        }
+        return count;
+    }
+}
