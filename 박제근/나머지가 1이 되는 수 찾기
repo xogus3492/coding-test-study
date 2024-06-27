@@ -1,0 +1,22 @@
+import java.util.*;
+class Solution {
+    public int solution(int n) {
+        int answer = 0;
+        ArrayList<Integer> alist = new ArrayList<Integer>();
+        if(n>=3 && n<=1000000){
+            for(int i=1; i<n; i++){
+                if(n%i == 1){
+                    alist.add(i);
+                }
+            }
+        }
+        int min = alist.get(0);
+        for(int i=0; i<alist.size(); i++){
+            if(min<alist.get(i)){
+             return min;
+            }
+        }
+        answer = min;
+        return answer;
+    }
+}
